@@ -5,8 +5,8 @@ body{
     align-items: center;
     height: 100vh;
     background-color: hsl(0, 0%, 90%);
-
 }
+
 #calculator{
     font-family: arial, sans-serif;
     max-width: 500px;
@@ -43,5 +43,12 @@ button {
   color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;
+}
 
+button:hover {
+  background-color: hsl(0, 0%, 40%);
+}
+
+button:active {
+  background-color: hsl(0, 0%, 50%);
 }
