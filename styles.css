@@ -3,10 +3,19 @@
     max-width: 500px;
     margin: 50px auto;
     padding: 20px;
-    background-color: hsl(0, 0%, 20%);
+    background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     overflow: hidden;
+}
+
+#display{
+    width:100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
 }
 #keys{
     display: grid;
